@@ -22,7 +22,7 @@
 // //and also using square brackets, square brackets can also used to add a new property or modify existing property using it's key value.
 // // object-name[key value of the property];
 // alert(user["hello"]);
-
+//user["hello"] = true;  //Modifying value of hello property
 // To remove a property, we can use the delete operator:
 
 // delete user.age;
@@ -46,8 +46,8 @@
 // There are many other kinds of objects in JavaScript:
 
 // Array to store ordered data collections,
-//     Date to store the information about the date and time,
-//         Error to store the information about an error.
+//Date to store the information about the date and time,
+//Error to store the information about an error.
 // …And so on.
 
 //Refernce to an object Data type can be done by obj

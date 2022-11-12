@@ -13,12 +13,12 @@ let message = "Hello, World";
 
 //     // note: no "use strict" in this example
 
-//     num = 5; // the variable "num" is created if it didn't exist
+num = 5; // the variable "num" is created if it didn't exist
 
-// alert(num); // 5
+alert(num); // 5
 
 // To decleare a unchanging variable, i.e a constant use const
-const myBirthday = '18.04.1992';
+const myBirthday = "18.04.1992";
 
 //Name constants with ALL-CAPS like this BIRTHDAY_DATE which are hard-coded values and are known prior to execution, and name other constants normally like variables in camelCase which are
 // constants but are not known prior to execution.
@@ -36,5 +36,5 @@ let ourPlanet = "Earth";
 let currentUser = "John";
 
 //Task 3
-const BIRTHDAY = '18.04.1982'; //Since birthday does not change, use CAPS for naming it.
-const age = somecode(BIRTHDAY);//Using small letters for age as it is still a const but will change next year and also the fact that it is known prior to execution.
+const BIRTHDAY = "18.04.1982"; //Since birthday does not change, use CAPS for naming it.
+const age = somecode(BIRTHDAY); //Using small letters for age as it is still a const but will change next year and also the fact that it is known prior to execution.
