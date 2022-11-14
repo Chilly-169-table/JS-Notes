@@ -1,6 +1,6 @@
-The programs in this language are called scripts. 
+The programs in this language are called scripts.
 
-The web browser receives the JavaScript code in its original text form and runs the script from that. 
+The web browser receives the JavaScript code in its original text form and runs the script from that.
 API's are ready-made sets of code building blocks that allow a developer to implement programs that would otherwise be hard or impossible to implement.
 
 Browser APIs are built into your web browser, and are able to expose data from the surrounding computer environment, or do useful complex things.
@@ -9,15 +9,12 @@ GeoLocation API
 Canvas and WebGL-Animated 2d and 3d Graphics
 HTMLmediaElement and WebRTC
 
-
 Usually, when we put a line of code into the console, and then press Enter, it executes.
 
 To insert multiple lines, press Shift+Enter In Browser Console. This way one can enter long fragments of JavaScript code.
 
-
 Has Different environments for which code is written and executed.
 For Example: browser, Node.js(Server-side)
-
 
 Including a JS Code into a HTML File
 
@@ -34,7 +31,7 @@ Other pages that reference the same script will take it from the cache instead o
 That reduces traffic and makes pages faster.
 
 Statements are syntax constructs and commands that perform actions, Statements can be separated with a semicolon.
-A semicolon may be omitted in most cases when a line break exists.Here, JavaScript interprets the line break as an “implicit” semicolon. 
+A semicolon may be omitted in most cases when a line break exists.Here, JavaScript interprets the line break as an “implicit” semicolon.
 
 To keep the old code working, new modifications are off by default. You need to explicitly enable them with a special directive: "use strict"
 
@@ -44,6 +41,3 @@ alert("some code");
 "use strict";
 
 // strict mode is not activated
-
-
-

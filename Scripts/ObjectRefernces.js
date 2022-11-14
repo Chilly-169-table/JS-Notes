@@ -104,3 +104,21 @@ alert(user7.sizes === clone.sizes); // false, different objects
 // user and clone are totally unrelated now
 user.sizes.width = 60; // change a property from one place
 alert(clone.sizes.width); // 50, not related
+
+// The structuredClone method can clone most data types, such as objects, arrays, primitive values, Function properties aren’t supported.
+
+// It also supports circular references, when an object property references the object itself (directly or via a chain or references).
+//circular refernces is when a object has a property that refers to the object in which it is present.
+// For instance:
+
+let user8 = {};
+// let's create a circular reference:
+// user.me references the user itself
+user8.me = user8;
+
+let clone = structuredClone(user);
+alert(clone.me === clone); // true
+
+// As you can see, clone.me references the clone, not the user! So the circular reference was cloned correctly as well.
+
+structuredClone({ f: function () {} }); //Fails//To handle such complex cases we may need to use a combination of cloning methods, write custom code

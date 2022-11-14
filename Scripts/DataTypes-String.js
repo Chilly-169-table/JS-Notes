@@ -1,10 +1,10 @@
 // A string in JavaScript must be surrounded by quotes.
 // Double and single quotes are “simple” quotes.There’s practically no difference between them in JavaScript.
 // Backticks are “extended functionality” quotes.They allow us to embed variables and expressions into a string by wrapping them in ${… }
-let name = "John";
+let name1 = "John";
 
 // embed a variable
-alert(`Hello, ${name}!`); // Hello, John!
+alert(`Hello, ${name1}!`); // Hello, John!
 
 // ` ` - have embedding functionality
 

@@ -1,6 +1,7 @@
 //  objects are used to store keyed collections of various data and more complex entities.
 // An object can be created with figure brackets {…} with an optional list of properties.
 // A property is a “key: value” pair, where key is a string (also called a “property name”), and value can be anything.
+// When we write our code using objects to represent entities, that’s called object-oriented programming, in short: “OOP”.
 
 // An empty object(“empty cabinet”) can be created using one of two syntaxes:
 
