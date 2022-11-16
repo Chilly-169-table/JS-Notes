@@ -1,13 +1,8 @@
-function Accumulator(startingValue) {
-  this.value = startingValue;
-  this.read = function () {
-    temp = +prompt("value?");
-    this.value += temp;
-  };
-}
+let id = Symbol.for("id");
+let id = Symbol("id");
 
-let accumulator = new Accumulator(1); // initial value 1
-accumulator.read(); // adds the user-entered value
-accumulator.read(); // adds the user-entered value
+let user = {
+  [id]: 78,
+};
 
-alert(accumulator.value); // shows the sum of these values
+Symbol.for();
