@@ -72,4 +72,4 @@ ask("Do you agree?", showOk, showCancel);
 // In strict mode, when a Function Declaration is within a code block, it’s visible everywhere inside that block. But not outside of it.
 //In this case, a function expression can be used if needed which would act like a global function after the function body is written and can be called anywhere outside or inside the code block
 
-//So mostly decleration should be used but when we need conditional declerations arise we should use function expression way.
+//So mostly decleration should be used but when we need conditional declarations arise we should use function expression way.
